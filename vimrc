@@ -135,10 +135,10 @@ vnoremap <silent> * :call VisualSearch('b')<CR>
 vnoremap <silent> # :call VisualSearch('f')<CR>
 vnoremap <silent> gv :call VisualSearch('gv') <Bar> cw<CR>
 
-set undodir=~/.vim/undodir
-set undofile
-set undolevels=1000 "maximum number of changes that can be undone
-set undoreload=10000 "maximum number lines to save for undo on a buffer reload
+" set undodir=~/.vim/undodir
+" set undofile
+" set undolevels=1000 "maximum number of changes that can be undone
+" set undoreload=10000 "maximum number lines to save for undo on a buffer reload
 
 map <Tab> :NERDTreeFind<CR>
 map <C-n> :NERDTreeToggle<CR>
